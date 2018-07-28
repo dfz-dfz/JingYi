@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl/]">[field:image/]<span class="title">[field:title/]</span><span class="title" style="color:#FF0000">优惠价：[field:trueprice/]</span><span class="title" style="color:#FF0000">市场价：[field:price/]</span></a></li>

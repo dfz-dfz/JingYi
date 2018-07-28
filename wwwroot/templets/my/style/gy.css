@@ -1,0 +1,328 @@
+/***
+ *	DedeCMS v5.3 Style (grass green)
+ *	dedecms.com  Author pigz  2008-11-17 17:35
+ **/
+ 
+/*---------- base ---------*/
+*{
+	padding:0px;
+	margin:0px; 
+}
+html{
+	background:#FFF;
+}
+body{
+	margin:0px auto;
+	font:12px Verdana,Arial,Tahoma;
+}
+img{
+	border:none;
+}
+
+a{
+	color:#3366CC;
+	text-decoration:none;
+}
+a:hover{
+	color:#F33;
+	text-decoration:underline;
+}
+ul{
+	list-style:none;
+}
+input,select,button{
+	font-size:12px;
+	vertical-align:middle;
+}
+.fc_03c{
+	color:#03C;
+}
+.fc_f30{
+	color:#F30;
+}
+
+/*---------- frame ---------*/
+.gy-content{
+	width:80%;
+	min-width:1200px;
+	margin:10px auto 50px auto;
+	padding-top:10px;
+	overflow:hidden;
+}
+.content-weizhi{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	margin:0px auto;
+	border-top:1px solid #333;
+	overflow:hidden;
+}
+.content-weizhi-left{
+	width:50%;
+	height:50px;
+	line-height:50px;
+	float:left;
+	overflow:hidden;
+	font-size:18px;
+	color:#333;
+	font-weight:bold;
+	text-align:left;
+}
+.content-weizhi-left a{
+	
+	color:#333;
+	font-weight:bold;
+	text-align:left;
+}
+.content-weizhi-right{
+	width:50%;
+	height:50px;
+	line-height:50px;
+	float:right;
+	overflow:hidden;
+	font-size:18px;
+	color:#333;
+	text-align:right;
+}
+
+.content-weizhi-right a{
+	color:#333;
+}
+
+.gy-content-left{
+	width:15%;
+	margin:0px auto;
+	overflow:hidden;
+	float:left;
+}
+.gy-content-right{
+	width:80%;
+	margin:0px auto;
+	min-height:400px;
+	overflow:hidden;
+	float:right;
+	padding:1%;
+	line-height:25px;
+	border:1px solid #ccc;
+}
+
+.gy-content-right img{
+	max-width:99%;
+}
+/*nav styles*/
+.nav ul {
+	background: white; border-top: 6px solid hsl(180, 40%, 60%);
+	width: 99%; 
+	border:1px solid #999;
+}
+.nav ul li {
+	list-style-type: none;
+	/*relative positioning for list items along with overflow hidden to contain the overflowing ripple*/
+	position: relative;
+	overflow: hidden;
+	text-align:center;
+}
+.nav ul li a {
+	font: normal 14px/28px Montserrat; 
+	color: #333;
+	display: block; 
+	padding: 10px 15px;
+	text-decoration: none;
+	cursor: pointer; /*since the links are dummy without href values*/
+	/*prevent text selection*/
+	user-select: none;
+	/*static positioned elements appear behind absolutely positioned siblings(.ink in this case) hence we will make the links relatively positioned to bring them above .ink*/
+	position: relative;
+}
+
+/*.ink styles - the elements which will create the ripple effect. The size and position of these elements will be set by the JS code. Initially these elements will be scaled down to 0% and later animated to large fading circles on user click.*/
+.nav .ink {
+	display: block; 
+	position: absolute;
+	background: hsl(180, 40%, 80%);
+	border-radius: 100%;
+	transform: scale(0);
+}
+/*animation effect*/
+.nav .ink.animate {animation: ripple 0.65s linear;}
+@keyframes ripple {
+	/*scale the element to 250% to safely cover the entire link and fade it out*/
+	100% {opacity: 0; transform: scale(2.5);}
+}
+
+/**风采**/
+.fc-list{
+	width:98%;
+	height:10px auto;
+	overflow:hidden;
+	float:left;
+}
+.fc-list li{
+	width:100%;
+	height:120px;
+	overflow:hidden;
+	margin:10px 0;
+}
+.fc-list li .fc-list-left{
+	width:15%;
+	height:100%;
+	overflow:hidden;
+	float:left;
+}
+.fc-list li .fc-list-left img{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.fc-list li .fc-list-right{
+	width:84%;
+	height:100%;
+	overflow:hidden;
+	float:left;
+	margin-left:1%;
+}
+.fc-list li .fc-list-right h2{
+	width:100%;
+	height:30px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	margin-left:1%;
+}
+.fc-list li .fc-list-right h2 a{
+	color:#333;
+}
+.fc-list li .fc-list-right p{
+	color:#999;
+	height:89px;
+	overflow: hidden;
+}
+
+/**分页**/
+.content-pages{
+	width:100%;
+	height:80px;
+	margin:30px auto;
+	text-align:center;
+	overflow:hidden;
+	border-top:1px solid #ccc;
+}
+
+.content-pre{
+	width:40%;
+	height:40px;
+	float:left;
+	color:#666;
+	text-align:left;
+	overflow:hidden;
+}
+.content-pre a{
+	color:#333;
+	font-size:16px;
+}
+.content-next{
+	width:40%;
+	height:40px;
+	float:right;
+	color:#666;
+	text-align:right;
+	overflow:hidden;
+}
+.content-next a{
+	color:#333;
+	font-size:16px;
+}
+
+/**机电安装**/
+.jdaz-bannr{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+.jdaz-bannr img{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+.content{
+	
+	min-height:200px;
+	overflow:hidden;
+	padding:30px 0;
+	margin:0 auto;
+}
+
+/**产品列表分类*/
+.list-cates-content{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	overflow:hidden;
+	margin:10px auto;
+	border-bottom:2px solid red;
+}
+.list-cates-content .list-cates-content-left{
+	width:80%;
+	height:50px;
+	line-height:50px;
+	overflow:hidden;
+	float:left;
+}
+.list-cates-content .list-cates-content-left ul{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	overflow:hidden;
+	float:left;
+}
+
+.list-cates-content .list-cates-content-left ul li{
+	height:50px;
+	line-height:50px;
+	overflow:hidden;
+	float:left;
+	margin:0 10px;
+
+}
+
+.list-cates-content .list-cates-content-right {
+	width:10%;
+	height:50px;
+	line-height:50px;
+	overflow:hidden;
+	float:right;
+	text-align:right;
+}
+
+.list-cates-content .list-cates-content-right  a,.list-cates-content .list-cates-content-left ul li a{
+	color:#333;
+	font-size:16px;
+}
+
+/**正文内容*/
+.bodys{
+	width:99%;
+	margin:50px auto;
+	height:auto;
+	min-height:300px;
+	overflow:hidden;
+	border-top:1px solid #999;
+	
+}
+.bodys img{
+	max-width:99%;
+	margin:5px auto;
+}
+
+.actbox{
+	width:100%;
+	height:40px;
+	margin:20px auto;
+}
+.actbox ul li{
+	
+	height:40px;
+	line-height:40px;
+	float:left;
+	margin:0 10px;
+}

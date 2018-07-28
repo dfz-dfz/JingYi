@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<!--可无视-->
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/normalize.css" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/default.css">
+<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/style/gy.css" rel="stylesheet" media="screen" type="text/css" />
+
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/prefixfree.min.js"></script>
+
+<!--主要样式-->
+<style type="text/css">
+.content img{
+	max-width:98%;
+	margin:10px auto;
+}
+</style>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+
+<div class="gy-content" style="margin-top:0;padding-top:0;">
+	<div class="jdaz-bannr"><img src="{dede:global.cfg_templets_skin/}/images/328taocan.jpg"/></div>
+	<div class="content-weizhi">
+		<div class="content-weizhi-left"><a href="/">首页</a>>办公室套餐>328套餐详情</div>
+	</div>
+	
+	
+	<!---内容--->
+	<div class="gy-content-right" style="width:97%;">
+		<div class="jdaz-bannr"><img src="{dede:global.cfg_templets_skin/}/images/328taocantop.jpg"/></div>
+		<div style="height:600px;width:100%;font-size:18px;color:#999;text-align:center;margin:10px auto;overflow:hidden;">
+			<a href="{dede:global.sanerba/}" target="_blank">
+				<img src="{dede:global.cfg_templets_skin/}/images/328sd.jpg" style="height:620px; width:87%;margin:0 auto;"/>
+			</a>
+		</div>
+		<div class="content" style="height:auto;width:100%;font-size:18px;color:#999;text-align:center;margin:10px auto;overflow:hidden;">
+		
+		{dede:field.content/}
+		
+		</div>
+		
+	</div>
+	
+</div>
+<div class="footer-banquan" style="background:#b51a22;height:170px;overflow:hidden;padding:0;margin-top:20px;">
+	<div class="content-div"style="margin-top:0px;">
+		<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={dede:global.qq/}&site=qq&menu=yes"><img  style="width:100%;height:170px" SRC="{dede:global.cfg_templets_skin/}/images/zixun.jpg"></a>
+	</div>
+</div>
+
+{dede:include filename="footer.htm"/}
+
+</body>
+</html>

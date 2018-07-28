@@ -1,0 +1,43 @@
+<?php
+$z[0]=Array("global","",332,358);
+$z[0][4]=array();
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",470,488);
+$z[1][4]=array();
+$z[1][4]['name']="tel";
+$z[2]=Array("global","",844,871);
+$z[2][4]=array();
+$z[2][4]['name']="cfg_basehost";
+$z[3]=Array("global","",883,915);
+$z[3][4]=array();
+$z[3][4]['name']="cfg_templets_skin";
+$z[4]=Array("global","",970,996);
+$z[4][4]=array();
+$z[4][4]['name']="cfg_webname";
+$z[5]=Array("global","",1311,1343);
+$z[5][4]=array();
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("mda","",1436,1465);
+$z[6][4]=array();
+$z[6][4]['name']="468x60_SSP";
+$z[7]=Array("global","",1827,1852);
+$z[7][4]=array();
+$z[7][4]['name']="cfg_cmsurl";
+$z[8]=Array("channel","\r\n      	<li><a href='[field:typeurl/]' [field:rel/]><span>[field:typename/]</span></a></li>\r\n      	",1892,2135);
+$z[8][4]=array();
+$z[8][4]['type']="top";
+$z[8][4]['row']="10";
+$z[8][4]['currentstyle']="<li class='hover'><a href='~typelink~' ~rel~><span>~typename~</span></a></li>";
+$z[9]=Array("global","",2227,2252);
+$z[9][4]=array();
+$z[9][4]['name']="cfg_cmsurl";
+$z[10]=Array("tag","\r\n            <li><a href='[field:link/]'>[field:tag /]</a></li>\r\n          ",3060,3190);
+$z[10][4]=array();
+$z[10][4]['row']="10";
+$z[10][4]['getall']="1";
+$z[10][4]['sort']="month";
+$z[11]=Array("mda","",3331,3360);
+$z[11][4]=array();
+$z[11][4]['name']="950x90_SSP";
+
+?>
