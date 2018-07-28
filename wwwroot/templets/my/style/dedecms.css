@@ -18,6 +18,7 @@ html{
 }
 body{
 	font:12px Verdana,Arial,Tahoma;
+	font-family: Microsoft YaHei;
 }
 img{
 	border:none;
@@ -867,7 +868,7 @@ input,select,button{
 	width:80%;
 	min-width:1200px;
 	overflow:hidden;
-	margin:5px auto;
+	margin:10px auto;
 }
 
 .content-d{
@@ -890,13 +891,13 @@ input,select,button{
 	width:100%;
 	overflow:hidden;
 	height:auto;
-	margin:5px auto;
+	margin:auto;
 }
 .content-ul-ul{
 	width:100%;
 	overflow:hidden;
 	height:auto;
-	margin:5px auto;
+	margin:auto;
 	background:#fff;
 }
 
@@ -905,7 +906,7 @@ input,select,button{
 	overflow:hidden;
 	margin:1%;
 	float:left;
-	height:280px;
+	height:290px;
 }
 
 .content-li-cp a img{
@@ -920,10 +921,11 @@ input,select,button{
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 3;
 	overflow: hidden;
-	color:#333;
+	color:#000;
 	font-size:16px;
 	text-align:center;
 	font-weight:bold;
+	margin-top: 10px;
 }
 
 /*横幅*/
@@ -933,8 +935,8 @@ input,select,button{
 	overflow:hidden;
 	margin:0 auto;
 	text-align:center;
-	background:#f2f2f2;
-	padding-bottom:20px;
+	background:#fff;
+	padding-bottom:40px;
 }
 .hengfu h2{
 	width:100%;
@@ -944,8 +946,9 @@ input,select,button{
 	margin:0 auto;
 	font-size:40px;
 	font-weight:bold;
-	color:#333;
+	color:#1e2629;
 	text-align:center;
+	font-family: Microsoft YaHei;
 }
 .hengfu p{
 	width:100%;
@@ -955,7 +958,7 @@ input,select,button{
 	margin:0 auto;
 	font-size:22px;
 	font-weight:bold;
-	color:#333;
+	color:#1e2629;
 	text-align:center;
 }
 
